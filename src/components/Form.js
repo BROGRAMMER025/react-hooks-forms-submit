@@ -17,6 +17,9 @@ function Form(props) {
       <input type="text" onChange={handleFirstNameChange} value={firstName} />
       <input type="text" onChange={handleLastNameChange} value={lastName} />
       <button type="submit">Submit</button>
+      <div>
+        <p>Done</p>
+      </div>
     </form>
   );
 }
